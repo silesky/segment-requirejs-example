@@ -42,4 +42,6 @@ class MyApp {
   };
 }
 
-window.app = new MyApp();
+define(function () {
+  return MyApp;
+});
