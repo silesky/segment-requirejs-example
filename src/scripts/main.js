@@ -9,7 +9,6 @@ define(function (require) {
   const load = require("./lib/analytics");
   load(WRITE_KEY);
 
-  var MyApp = require("app");
-
+  const MyApp = require("app");
   window.app = new MyApp();
 });
